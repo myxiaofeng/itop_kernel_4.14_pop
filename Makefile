@@ -252,7 +252,7 @@ SUBARCH := $(shell uname -m | sed -e s/i.86/x86/ -e s/x86_64/x86/ \
 ARCH           := arm
 
 #CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
-CROSS_COMPILE   := arm-none-linux-gnueabi-
+CROSS_COMPILE   := arm-linux-
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)

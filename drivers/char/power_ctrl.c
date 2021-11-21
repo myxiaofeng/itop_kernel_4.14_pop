@@ -60,7 +60,7 @@ static long power_ioctl(struct file *filep, unsigned int cmd,
 	return 0;
 }
 
-static ssize_t power_write(struct file *filp, char *buffer, size_t count, loff_t *ppos)
+static ssize_t power_write(struct file *filp, const char *buffer, size_t count, loff_t *ppos)
 {
 	char str[20];
 

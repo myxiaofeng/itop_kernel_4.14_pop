@@ -1,0 +1,14 @@
+*.[oad]
+*.cmd
+*.map
+uImage
+vmlinux
+*.log
+.config
+*.old
+.tmp_vmlinux1
+.tmp_vmlinux2
+Module.symvers
+*.so
+*.dbg
+*.version
